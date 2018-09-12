@@ -16,11 +16,11 @@ public class Palindrome {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String word = null , backwardsWord;
+        String backwardsWord;
         int pos;
         //Above to claim varibales of different types.
         
-        String a = JOptionPane.showInputDialog("Words that are the same forwards "
+        String word = JOptionPane.showInputDialog("Words that are the same forwards "
                 + "and backwards are called panlindromes. \n"
                 + "This program determines if a words is a panlindrome.\n\n\n"
                 +"Enter a word:\n" ); 
